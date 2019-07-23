@@ -20,3 +20,5 @@ export const DropContainer = styled.div.attrs({
   ${props => props.isDragActive && dragActive};
   ${props => props.isDragReject && dragReject};
 `;
+
+export const UploadMessage = styled.p``;
